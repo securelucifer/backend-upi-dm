@@ -10,7 +10,7 @@ const createDefaultAdmin = async () => {
         console.log('📍 MongoDB URI:', process.env.MONGODB_URI?.replace(/\/\/.*@/, '//***:***@'));
 
         await mongoose.connect(process.env.MONGODB_URI, {
-            dbName: "DmartUpiii",
+            dbName: "DmartUpinew",
         });
 
         console.log('✅ Connected to MongoDB');
